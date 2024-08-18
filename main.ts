@@ -1,43 +1,37 @@
-let marks:number = 35
-if (marks>=90&&marks<=100){
-    console.log("grade A++")
-}
-else if (marks>=80&&marks<=90){
-    console.log("grade A")
-}
-else if (marks>=70||marks==80){
-    console.log("grade B++")
-}
-else if (marks>=60||marks==70){
-    console.log("grade B")
-}
-else if (marks>=50&&marks<60){
-    console.log("grade C")
-}
-else if (marks>=40||marks==50){
-    console.log("grade D")
-}
-else {
-    console.log("fail")
-}
-//2nd program//
-let friendAge:number = 45
-if (friendAge>50&&friendAge<=60){
-    console.log("this is my friend")
-}
-else if (friendAge>=65||friendAge==70){
-    console.log("friend 1")
-}
-else if (friendAge>55||friendAge<=75){
-    console.log("friend 2")
-}
-else if (friendAge<=45&&friendAge>=60){
-    console.log("friend 3")
-}
-else if (friendAge>=50&&friendAge>=70){
-console.log("friend 4")
-}
-else if (friendAge<=40||friendAge==45){
-    console.log("friend 5")
-}
 
+const greeting = 'Hello,${name}!;'
+console.log(greeting)
+let num:number = 2
+let num1:number = 3
+console.log(num ** num1)
+let age:number = 20
+let myFirend:string = "Alina"
+let inroll:boolean = (true) 
+console.log(age,myFirend,inroll)
+let indexOne:string = "numa"
+console.log(indexOne)
+indexOne = "amaan"
+console.log(indexOne)
+indexOne = "airah"
+console.log(indexOne)
+let num_2 = 6
+console.log(num_2)
+num_2 = 20
+console.log(num_2)
+num_2 = 15
+console.log(num_2)
+let color:boolean = true
+console.log(color)
+color = false
+console.log(color)
+//concatination//
+let food:string = "pizza"
+let juice:string = "boba"
+let favColor:string = "pink"
+let num3:number = 35
+console.log(food , juice)
+let result:string = food+" "+juice+" "+favColor+" "+num3
+console.log(result)
+//template literals//
+let A:string = `i like ${food}, ${juice} and my favcolor is ${favColor} \n my fav number is ${num3}`
+console.log(A)
